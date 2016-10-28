@@ -2,21 +2,23 @@
 # COMP2041
 # 
 #================================
-Lecture Notes
+# 
+Lecture Notes, notes taken
 Bash command flags (sort, grep ...)
 
 
+perl 	last, next
+python 	findall, match
 
-#================================
 
 
 
 # REVIEW
 #===========================
-
+# Lab
 
 #---------------------------
-
+# Tut
 # Good: 
 
 # Unsolved: 
@@ -24,6 +26,34 @@ Bash command flags (sort, grep ...)
 
 # Unattempted: 
 
+
+#===========================
+# Lab 6
+
+#---------------------------
+# Tut 6
+
+# Good: 
+3 Exam question, what does program print
+
+# Unsolved: 
+# Unattempted: 
+
+
+
+
+#===========================
+# Lab 7
+
+#---------------------------
+# Tut 7
+
+# Good: 
+3 shortest path
+5 2D Hash print
+# Unsolved: 
+# Unattempted: 
+All python version
 
 #===========================
 # Lab 8 
