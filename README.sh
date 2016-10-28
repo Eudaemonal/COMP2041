@@ -28,6 +28,18 @@ python 	findall, match
 
 # Unattempted: 
 
+#===========================
+# Lab 5
+
+#---------------------------
+# Tut 5
+
+# Good: 
+2 difference between "", '' "$2.50", '$2.50'
+
+# Unsolved: 
+# Unattempted: 
+
 
 #===========================
 # Lab 6
