@@ -8,7 +8,7 @@ Bash command flags (sort, grep, uniq ...)
 
 
 
-bash    grep, sort, tr, cut, uniq (expected result)
+bash    grep, sort, tr, cut, uniq, expr (expected result)
 perl 	last, next
 python 	findall, match
 
