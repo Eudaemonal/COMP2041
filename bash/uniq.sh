@@ -1,3 +1,3 @@
-uniq
-	-c : count occurance
-	-u : occured only once
+uniq:
+	-c: count occurance
+	-u: occured only once

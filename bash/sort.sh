@@ -1,3 +1,4 @@
-sort 
-	-n: sort by number
+sort:
+	-n: numeric
+	-r: reverse
 	

@@ -5,6 +5,8 @@
 # 
 Lecture Notes, notes taken
 Bash command flags (sort, grep, uniq ...)
+Past lab work, bash
+Prac exam, tut13
 
 
 
@@ -100,13 +102,16 @@ All python version
 #---------------------------
 # Tut 13
 # Good: 
-8.c write test data for correctness and reliability
+8.c write test data, correctness and reliability
 
 
 # Unsolved: 
 
-
 # Unattempted: 
+12
+18
+19
+20
 
 
 #===========================
