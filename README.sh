@@ -4,9 +4,11 @@
 #================================
 # 
 Lecture Notes, notes taken
-Bash command flags (sort, grep ...)
+Bash command flags (sort, grep, uniq ...)
 
 
+
+bash    grep, sort, tr, cut, uniq (expected result)
 perl 	last, next
 python 	findall, match
 
