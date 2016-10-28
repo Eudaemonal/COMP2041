@@ -39,7 +39,9 @@ python 	findall, match
 
 # Unsolved: 
 # Unattempted: 
-
+All python version
+9
+10
 
 #===========================
 # Lab 6
@@ -52,8 +54,10 @@ python 	findall, match
 
 # Unsolved: 
 # Unattempted: 
-
-
+All python version
+5
+6
+7
 
 
 #===========================
@@ -90,6 +94,19 @@ All python version
 13
 14
 
+#===========================
+# Lab 13
+
+#---------------------------
+# Tut 13
+# Good: 
+8.c write test data for correctness and reliability
+
+
+# Unsolved: 
+
+
+# Unattempted: 
 
 
 #===========================
