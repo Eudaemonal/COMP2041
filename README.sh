@@ -7,14 +7,13 @@ Lecture Notes, notes taken
 Bash command flags (sort, grep, uniq ...)
 Past lab work, bash
 Prac exam, tut13
+Hard question, DP, BFS, Dijkstra
 
 
 
 bash    grep, sort, tr, cut, uniq, expr (expected result)
 perl 	last, next
 python 	findall, match
-
-
 
 
 # REVIEW
@@ -95,6 +94,20 @@ All python version
 12
 13
 14
+
+#===========================
+# Lab 12
+
+#---------------------------
+# Tut 12
+# Good: 
+
+
+# Unsolved: 
+
+# Unattempted: 
+
+
 
 #===========================
 # Lab 13
