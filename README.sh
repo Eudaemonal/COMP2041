@@ -32,6 +32,12 @@ python 	findall, match
 #===========================
 # Lab 3
 
+
+
+for file in test/*		# Multiple elements
+for file in 'test/*'	# Single string
+
+
 declare MediumFiles
 for f in *
 line=`wc -l<$f`
@@ -60,6 +66,10 @@ echo "$undergraduate" "$postgraduate" |sort| uniq|egrep ^$1
 SAVEIFS=$IFS
 IFS=''
 IFS=$SAVEIFS
+
+
+# ./fix_id3_tags.sh 'music/Triple J Hottest 100, 2006'
+find $@ -name '*.mp3' | while read filename; 
 
 
 Title=`echo $filename|sed 's/\(.*\) - \(.*\) - \(.*\)/\2/'`
