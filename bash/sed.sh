@@ -1,0 +1,4 @@
+sed:
+	g: global
+	i:
+	
