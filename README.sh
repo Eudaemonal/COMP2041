@@ -62,6 +62,13 @@ echo "$undergraduate" "$postgraduate" |sort| uniq|egrep ^$1
 6 Exam question
 	
 7 if ! [[ $num =~ '[0-9]+' ]]
+
+11 Exam question
+   tr -d ' '|wc -w
+
+13 Exam question
+14 Exam question
+
 # Unsolved: 
 
 
