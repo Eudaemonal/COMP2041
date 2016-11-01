@@ -7,7 +7,7 @@ Lecture Notes, notes taken
 Bash command flags (sort, grep, uniq ...)
 Past lab work, bash
 Prac exam, tut13
-Hard question, DP, BFS, Dijkstra
+Hard question, DP, BFS, Dijkstra, isprime
 
 
 Question and answer 
@@ -103,6 +103,9 @@ i=`expr $i + 1`
 #---------------------------
 # Tut 4
 # Good: 
+
+3 for file in `find "$@" -type f`
+6 Exam question
 
 # Unsolved: 
 

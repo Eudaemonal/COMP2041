@@ -1,0 +1,3 @@
+
+The shell script is executed by a separate shell
+

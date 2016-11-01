@@ -1,9 +1,0 @@
-#!/bin/sh
-
-
-while read id mark
-do
-	mark=grep '\d+' $mark
-	echo "$id $mark"
-
-done

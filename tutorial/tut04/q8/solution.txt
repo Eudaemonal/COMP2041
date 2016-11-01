@@ -1,0 +1,10 @@
+
+for image_file in `ls ~/friends`
+do
+    ln -s "~/friends/$image_file" .
+done
+
+
+
+
+The shell does not replace tilde (~) with the user's home directory inside double-quotes, and does not handle spaces in filenames correctly
