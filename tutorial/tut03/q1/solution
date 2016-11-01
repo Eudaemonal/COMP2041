@@ -1,0 +1,21 @@
+$ myScript
+myScript: command not found
+
+
+
+1. Problem:
+	might not have the current directory in PATH
+   Solution:
+	Add . to the end of PATH, and type ./myScript
+
+2. Problem:
+	myScript file might not executable
+   Solution:
+	chmod +x myScript
+
+3. Problem:
+	Got the #!/bin/sh line wrong
+   Solution:
+	Check the line and shell is actually called bin/sh on the system
+
+

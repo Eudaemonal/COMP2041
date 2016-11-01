@@ -10,11 +10,14 @@ Prac exam, tut13
 Hard question, DP, BFS, Dijkstra
 
 
+Question and answer 
 
-bash    grep, sort, tr, cut, uniq, expr (expected result)
+
+
+bash    grep, egrep, sort, tr, cut, uniq, expr (expected result)
 perl 	last, next
 python 	findall, match
-
+CGI		
 
 # REVIEW
 #===========================
@@ -53,6 +56,12 @@ echo "$undergraduate" "$postgraduate" |sort| uniq|egrep ^$1
 # Tut 3
 # Good: 
 
+2 cat $1 |rev|sort -t' ' -k3.2
+3 if [ ! -r "$f"]
+
+6 Exam question
+	
+7 if ! [[ $num =~ '[0-9]+' ]]
 # Unsolved: 
 
 

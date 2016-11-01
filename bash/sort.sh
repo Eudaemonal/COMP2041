@@ -1,4 +1,5 @@
 sort:
 	-n: numeric
-	-r: reverse
-	
+	-r: reverse sorting order
+	-k: field
+	-t: field separator
