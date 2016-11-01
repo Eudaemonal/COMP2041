@@ -1,0 +1,12 @@
+wc -l *.tex
+echo `wc -l *.tex`
+
+
+wc -l *.tex
+ 20 a.tex
+ 30 b.tex
+ 50 total
+
+
+echo `wc -l *.tex`
+20 a.tex 30 b.tex 50 total

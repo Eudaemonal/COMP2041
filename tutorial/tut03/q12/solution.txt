@@ -1,0 +1,4 @@
+-c: complement, replace everything except in string 1
+-s: squeese, replace any duplicate newlines with just one
+
+
