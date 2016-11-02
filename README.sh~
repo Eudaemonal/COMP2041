@@ -206,16 +206,6 @@ All python version
 $username = substr $username, 0, 256;
 $username =~ s/\W//g;
 
-
-<form method="GET" action="">
-x=`echo $parameters|sed '
-    s/.*x=//
-    s/&.*//
-    s/[^0-9\-\.\+]//g
-    '`
-
-
-
 # Unsolved: 
 
 
