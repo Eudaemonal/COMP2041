@@ -93,11 +93,7 @@ Artist=`echo $filename|sed 's/\(.*\) - \(.*\) - \(.*\)/\3/'|sed 's/.mp3//'`
 Title=`echo $filename|cut -d'/' -f3|sed 's/'-'/'#'/'|rev|sed 's/'-'/'#'/'|rev|cut -d'#' -f2|sed s/' '//`
 Artist=`echo $filename|cut -d'/' -f3|sed 's/'-'/'#'/'|rev|sed 's/'-'/'#'/'|rev|cut -d'#' -f3|sed s/' '//|sed s/'.mp3'//g`
 
-
-
 i=`expr $i + 1`
-
-
 
 
 #---------------------------
@@ -108,7 +104,6 @@ i=`expr $i + 1`
 6 Exam question
 
 # Unsolved: 
-
 
 # Unattempted: 
 
@@ -153,12 +148,17 @@ All python version
 # Good: 
 3 Exam question, what does program print
 
+6 if($mark !~ /^\d+$/)
+  $err = ($grade ne "??") ? "" : " ($mark)";
+
+
+
+
 # Unsolved: 
 # Unattempted: 
 All python version
-5
-6
-7
+
+
 
 
 #===========================
