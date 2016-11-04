@@ -175,7 +175,10 @@ All python version
 
 
 3 shortest path
-5 2D Hash print
+5 2D Hash
+  foreach $word2 (sort keys %{$count{$word1}})
+
+
 # Unsolved: 
 # Unattempted: 
 All python version
