@@ -1,6 +1,5 @@
 #!/usr/bin/perl -w
-# written by andrewt@cse.unsw.edu.au for COMP2041
-# count lines of C source code
+
 
 $total = 0;
 foreach $file (glob("*.[ch]")) {

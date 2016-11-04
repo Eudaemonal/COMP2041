@@ -168,6 +168,9 @@ All python version
 # Tut 7
 
 # Good: 
+1 @words = $line =~ /\w+/g;
+
+
 3 shortest path
 5 2D Hash print
 # Unsolved: 
