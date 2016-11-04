@@ -136,13 +136,13 @@ seek F,0,0;
 # Tut 5
 
 # Good: 
+1 Git exam question
 2 difference between "", '' "$2.50", '$2.50'
 
 # Unsolved: 
 # Unattempted: 
 All python version
-9
-10
+
 
 #===========================
 # Lab 6

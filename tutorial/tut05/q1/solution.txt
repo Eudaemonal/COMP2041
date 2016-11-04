@@ -1,0 +1,29 @@
+Its a server like < run by CSE to host repository of student programs for some CSE courses.
+
+Its required for COMP[29]041 assignments and labs (from now on),
+
+Its easy to use.
+
+Using it ensures you have a complete backup of all work on your program and can return to its state at any stage.
+
+It will also allow your tutor to check you are progressing on the lab as they can access your gitlab repository
+
+Similar servers (e.g. github or bitbucket) are heavily used in software development so you want the learn how to use them. 
+
+
+
+
+
+
+Tells git you want to keep track of versions of file
+
+
+
+Tell git to save the current version of all the file it is tracking
+
+
+
+Tell git to update another repository with all the commits in this repository
+
+
+

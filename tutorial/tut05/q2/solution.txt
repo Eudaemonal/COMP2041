@@ -1,0 +1,17 @@
+
+    "a"   vs   'a'
+    no difference - both are strings containing a single 'a' character
+    "A"   vs   A
+    no difference - both are strings containing a single 'A' character
+    "abc"   vs   'abc'
+    no difference - both are strings containing the three characters 'a','b','c'
+    "it\'s"   vs   'it\'s'
+    no difference - both are strings containing the four characters 'i','t',apostrophe,'s'
+    42   vs   "42"
+    no difference - both are strings containing two characters, '4' and '2'
+    3   vs   3.0
+    the first is a string containing one character and the second contains three characters, if evaluated in a numeric context they are the same: 3 ne 3.0 but 3 == 3.0
+    "$2.50"   vs   '$2.50'
+    in the first case, the value of the Perl internal variable $2 is interpolated into the string; since most likely this will be the empty string, the resulting string will be the three-character string ".50"
+    in the second case, the $ is not treated specially and so the result is the literal five-character string "$2.50"
+
