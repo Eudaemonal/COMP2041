@@ -151,7 +151,10 @@ All python version
 6 if($mark !~ /^\d+$/)
   $err = ($grade ne "??") ? "" : " ($mark)";
 
-
+7 $phones{"$id:$type"} = $number;
+  foreach $type ('mobile', 'home', 'work') {
+  my $key = "$id:$type";
+  if (defined($phones{$key})
 
 
 # Unsolved: 
