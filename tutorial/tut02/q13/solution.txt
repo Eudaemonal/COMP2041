@@ -1,0 +1,7 @@
+grep 'Ng, Hinry' enrolments | cut -d'|' -f3
+
+cut -d'|' -f3 enrolments | sort | uniq | wc -l
+
+cut -d'|' -f3 enrolments | sort | uniq -c
+
+sort enrolments | uniq | cut -d'|' -f1,2 | uniq -c | egrep -v '^ *1     '

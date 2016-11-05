@@ -10,3 +10,11 @@ grep 'FL' < dataFile
 grep ' 9[0-9] ' < dataFile
 
 grep '^[0-9]*[02468] ' < dataFile
+
+sort -k2n < dataFile | head
+
+sort -k2nr < dataFile | head -5
+
+sort -k2n < dataFile | tail -5
+
+cut -d' ' -f 3 < dataFile | sort | uniq -c

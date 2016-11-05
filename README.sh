@@ -25,12 +25,9 @@ CGI
 
 #---------------------------
 # Tut 2
-# Good: 
+12
+13
 
-# Unsolved: 
-
-
-# Unattempted: 
 
 #===========================
 # Lab 3
@@ -54,7 +51,6 @@ echo "$undergraduate" "$postgraduate" |sort| uniq|egrep ^$1
 
 #---------------------------
 # Tut 3
-# Good: 
 
 2 cat $1 |rev|sort -t' ' -k3.2
 3 if [ ! -r "$f"]
@@ -70,9 +66,6 @@ echo "$undergraduate" "$postgraduate" |sort| uniq|egrep ^$1
 14 Exam question
 
 
-
-
-# Unattempted: 
 
 #===========================
 # Lab 4
@@ -98,14 +91,10 @@ i=`expr $i + 1`
 
 #---------------------------
 # Tut 4
-# Good: 
 
 3 for file in `find "$@" -type f`
 6 Exam question
 
-
-
-# Unattempted: 
 
 
 #===========================
@@ -158,7 +147,6 @@ All python version
   if (defined($phones{$key})
 
 
-# Unsolved: 
 # Unattempted: 
 All python version
 
@@ -180,7 +168,6 @@ All python version
   foreach $word2 (sort keys %{$count{$word1}})
 
 
-# Unsolved: 
 # Unattempted: 
 All python version
 
@@ -198,8 +185,6 @@ All python version
 
 # Unsolved: 
 8 error on find files
-
-# Unattempted: 
 
 
 #===========================
