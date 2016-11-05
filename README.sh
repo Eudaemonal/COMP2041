@@ -69,7 +69,7 @@ echo "$undergraduate" "$postgraduate" |sort| uniq|egrep ^$1
 13 Exam question
 14 Exam question
 
-# Unsolved: 
+
 
 
 # Unattempted: 
@@ -103,7 +103,7 @@ i=`expr $i + 1`
 3 for file in `find "$@" -type f`
 6 Exam question
 
-# Unsolved: 
+
 
 # Unattempted: 
 
@@ -134,7 +134,8 @@ seek F,0,0;
 1 Git exam question
 2 difference between "", '' "$2.50", '$2.50'
 
-# Unsolved: 
+
+
 # Unattempted: 
 All python version
 
@@ -199,9 +200,6 @@ All python version
 8 error on find files
 
 # Unattempted: 
-11
-12
-13
 
 
 #===========================
