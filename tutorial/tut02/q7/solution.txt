@@ -1,0 +1,6 @@
+Regexp	N Matches	Shortest Match	Longest Match	Other Examples
+Perl	1	Perl	Perl	Perl
+Pe*r*l	Arbitrary	Pl		Pel Prl Perl
+Full-stop.	same as number of characters in character set	constant length	constant length	Full-stopa Full-stopb Full-stopc
+[1-9][0-9][0-9][0-9]	9000	constant length	constant length	1000 1001 1002
+I (love|hate) programming in (Perl|Python) and (Java|C)	8	I love programming in Perl and C	I love programming in Python and Java	

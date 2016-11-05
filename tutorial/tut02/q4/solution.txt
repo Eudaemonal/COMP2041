@@ -1,0 +1,1 @@
+ An operating system is a piece of software that manages the hardware of a computer and provides an interface to the programs that run on the computer. Operating systems on phones in your tut room might include Linux (Android), IOS (iPhone), Windows. CSE's lab computers and servers run Linux. 

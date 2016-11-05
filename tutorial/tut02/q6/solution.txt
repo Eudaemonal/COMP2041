@@ -1,0 +1,30 @@
+ The characters '<', '>' and '|' are part of the shell's syntax (meta characters) and the shell will interpret them rather than passing them to grep. This can be avoided with singleor double-quotes or backslash, e.g:
+
+egrep '<p>|<br>' /tmp/index.html
+egrep "<p>|<br>" /tmp/index.html
+egrep \<p>\|<br\> /tmp/index.html
+
+
+
+ For historical reasons 'grep' doesn't implement alternation ('|'). You need to use 'egrep' or ('grep -E') instead to get the full power of regular expressions.
+
+The supplied regular expression won't match the HTML tags if they are in upper case (A-Z), e.g: <P>. The match can be case insensitive by changing the regular expression or using grep's -i flag
+
+egrep  '<[pP]>|<[bB][rR]>' /tmp/index.html
+egrep -i '<p>|<br>' /tmp/index.html
+
+
+The supplied regular expression also won't match HTML tags containing spaces, e.g: <p >. This can be remedied by changing the regular expression or using grep's -w flag.
+
+egrep -i '< *(p|br) *>' /tmp/index.html
+egrep -iw '<p>|<br>' /tmp/index.html
+
+The HTML tag may contain attributes, e.g: <p class="lead_para">. Again can be remedied by changing the regular expression or using grep's -w flag.
+
+egrep -i '<(p|br)[^>]*>' /tmp/index.html
+
+This will still match <pre>. A better solution proposed by Michael Manansala is:
+
+egrep -i '<(p|br)( [^>]*)*>' /tmp/index.html
+
+The HTML tag may contain a newline. This is more difficult to handle with an essentially line-based tool like grep. 

@@ -1,0 +1,23 @@
+ :[^:]+:
+
+Since encrypted passwords can contain just about any character (except colon) you could structure the pattern as "find a colon, followed by a sequence of non-colons, terminated by a colon". Note that this pattern actually matches all of the fields in the line except the first and last, but if we assume that we only look for the first match on each line, it will do. 
+
+
+ ^[0-9]+(\.[0-9]*)?
+
+This pattern assumes that real numbers will consist of a sequence of digits (the integer part) optionally followed by a decimal point with the fraction digits after the decimal point. Note the use of the ^ symbol to anchor the pattern to the start of the line, the + to ensure that there is at least one digit in the integer part, the \ to escape the special meaning of ., and the ? to make the fractional part optional. 
+
+
+
+ [^|,]+, [^|]+
+
+To pick out the content without the delimiters, the first part of the name is any string without a comma or bar, then the comma and space, and then everything up to the next delimiter. Both parts of the name are non-empty, hence + is used rather than *. 
+
+
+
+ [^|,]+,( [^| ]+)+
+
+We couldn't just say [^| ]+, because that would disallow spaces inside the given names. For a space to be accepted, it has to be followed by a non-space (usually a letter). Hence the given name portion is one or more sequences of W, where W is a space followed by non-spaces and non-bars.
+
+When a regular expression starts to look like stupid smiley icons, you know it's complex. 
+

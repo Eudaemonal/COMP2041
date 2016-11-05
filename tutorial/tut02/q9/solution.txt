@@ -1,0 +1,7 @@
+The pattern '.' matches any character.
+
+The option -v causes egrep to print lines which don't match the pattern
+
+So the command egrep -v . prints all the empty lines in its input.
+
+The command egrep '^$' would also do this. 

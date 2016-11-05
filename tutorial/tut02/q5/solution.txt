@@ -1,0 +1,9 @@
+a. ^#.*
+b. ^[^#]
+c. \s$
+d. [BHLP]arry
+e. hello.*world
+f. c[ae]l[ae]nd[ae]r
+g. [0-9]+(,[0-9]+)*
+h. "[^"]*\\n"
+

@@ -1,0 +1,12 @@
+sort < dataFile
+
+sort -k2n < dataFile
+
+sort -k2nr < dataFile
+
+grep 'FL' < dataFile
+
+
+grep ' 9[0-9] ' < dataFile
+
+grep '^[0-9]*[02468] ' < dataFile
