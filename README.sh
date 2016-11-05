@@ -9,6 +9,8 @@ Past lab work, bash
 Prac exam, tut13
 Hard question, DP, BFS, Dijkstra, isprime
 
+Challenges in Lab
+
 
 Question and answer 
 
