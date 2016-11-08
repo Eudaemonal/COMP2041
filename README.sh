@@ -209,15 +209,13 @@ x=`echo $parameters|sed '
 
 
 
-# Unsolved: 
-
-
-# Unattempted: 
-
 
 
 #===========================
 # Lab 10
+
+quine
+
 
 #---------------------------
 # Tut 10
@@ -231,6 +229,9 @@ x=`echo $parameters|sed '
 
 #===========================
 # Lab 11
+
+reduce function
+prime
 
 #---------------------------
 # Tut 11
@@ -266,12 +267,6 @@ x=`echo $parameters|sed '
 8.c write test data, correctness and reliability
 
 
-# Unsolved: 
-
-# Unattempted: 
-18
-19
-20
 
 
 #===========================
