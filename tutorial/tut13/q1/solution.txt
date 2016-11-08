@@ -1,0 +1,10 @@
+
+    Incorrect ... the shell runs as a normal process under Unix; it is not part of the O/S
+
+    Correct.
+
+    Incorrect ... the shell is completely separate from any window manager; you can run a shell without having any window manager running.
+
+    Incorrect ... meaningless answer; certainly not shell-related
+
+

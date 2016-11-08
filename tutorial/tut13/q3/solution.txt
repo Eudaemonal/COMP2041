@@ -1,0 +1,12 @@
+
+
+    Correct
+
+    Incorrect ... this matches strings like xxx...yyy...zzz...
+
+    Incorrect ... this matches strings like xyzxyzxyz...
+
+    Incorrect ... this matches strings like xxx...yyy...zzz...
+
+The difference between (b) and (d) is that (b) requires there to be at least one of each x, y and z.
+

@@ -1,0 +1,11 @@
+
+
+    Incorrect ... this splits the line, but doesn't save the result of the splitting, and then prints the default value, which is the whole line read
+
+    Incorrect ... $2 does not refer to the second field in Perl
+
+    Correct ... the split saves the result in the @x list, and the index [1] selects the second value from the list
+
+    Incorrect ... the split saves the result in the @x list, but the index [2] selects the third value from the list
+
+

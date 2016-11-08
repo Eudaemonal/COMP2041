@@ -1,0 +1,11 @@
+
+
+    Incorrect ... on any Unix system I've ever seen run gives a Command not found error message. I guess it's remotely possible that some Unix system somewhere has a command called run. The chances of it doing what's described above is even more remote.
+
+    Incorrect ... I haven't seen any window managers where shell scripts automatically get turned into icons
+
+    Correct ... guaranteed to work on any Unix system I've seen.
+
+    Incorrect ... you'd need to make it executable as well.
+
+

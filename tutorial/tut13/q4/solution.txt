@@ -1,0 +1,11 @@
+
+
+    Incorrect ... this gives the entire data file; the default field-separator is tab, and since the lines contain no tabs, they are treated as a single large field; if an invalid field number is specified, cut simply prints the first
+
+    Incorrect ... this runs two separate commands cut -d followed by -f 2, and neither of them makes sense on its own
+
+    Incorrect ... this removes all chars up to and including the final semicolon in the line, and this gives the 4th field on each line
+
+    Correct
+
+
