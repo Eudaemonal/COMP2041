@@ -1,0 +1,5 @@
+
+    The for loop uses the "variable" i but forgets to prefix it with the $ symbol, so it will be treated as a constant and an error message generated
+    The iteration over the marks is incorrect; the value $#marks gives the index of the last array element; since the loop runs to less than $#marks it will miss the last element
+    A related point: since the first element in the array is the student ID and not a mark, it should not be included in the $totalMark; the loop iteration should start from $i = 1.
+    The value of $totalMark is not reset for each student, so the total simply increases continually and does not reflect the sum of marks for any individual except the first student 

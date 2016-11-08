@@ -1,0 +1,11 @@
+
+
+    Incorrect ... the & character is used to separate parameters in a URL, so this would "pass" "Dad " and " Dave"
+
+    Incorrect ... URL parameter values are case-sensitive
+
+    Correct ... the spaces are replaced by +'s and the ampersand is replaced by %26, as required by URL-encoding
+
+    Incorrect ... the code %D refers to the newline character, not to the letter capital-D
+
+

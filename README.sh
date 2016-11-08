@@ -269,7 +269,6 @@ x=`echo $parameters|sed '
 # Unsolved: 
 
 # Unattempted: 
-12
 18
 19
 20
