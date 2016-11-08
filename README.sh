@@ -5,11 +5,11 @@
 # 
 Lecture Notes, notes taken
 Bash command flags (sort, grep, uniq ...)
-Past lab work, bash
+Past lab work, bash, Challenges in Lab
 Prac exam, tut13
 Hard question, DP, BFS, Dijkstra, isprime
 
-Challenges in Lab
+
 
 
 Question and answer 
